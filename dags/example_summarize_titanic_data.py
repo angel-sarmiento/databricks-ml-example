@@ -72,7 +72,7 @@ default_args={
     default_args=default_args,
     schedule="0 * * * *",
     start_date=pendulum.from_format("2024-03-27", "YYYY-MM-DD").in_tz("EST"),
-    catchup=True,
+    catchup=False,
     owner_links={
         "Angel Sarmiento": "mailto:angelsarmiento409@gmail.com",
         "Open in Cloud IDE": "https://cloud.astronomer.io/clua5b37y026l01o9rq9jueqq/cloud-ide/clubdo5jw009s01loeidmnz8j/clubdo5s5009201pb4v4gxdpk",
