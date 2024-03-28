@@ -31,7 +31,7 @@ jobs:
         # This example uses `build-args` , but your use case might require configuring
         # different values.
         build-args: |
-          "FROM quay.io/astronomer/astro-runtime:6.0.2"
+          "FROM quay.io/astronomer/astro-runtime:10.6.2"
     - name: Deploy to Astro
       uses: astronomer/deploy-action@v0.2
       with:
