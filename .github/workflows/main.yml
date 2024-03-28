@@ -1,6 +1,3 @@
-- name: Deploy Apache Airflow DAGs to Astro
-  uses: astronomer/deploy-action@v0.4
-            
 name: Astronomer CI - Additional build-time args
 
 on:
@@ -33,7 +30,7 @@ jobs:
         build-args: |
           "FROM quay.io/astronomer/astro-runtime:10.6.2"
     - name: Deploy to Astro
-      uses: astronomer/deploy-action@v0.2
+      uses: astronomer/deploy-action@v0.4
       with:
         deployment-id: <deployment id>
         image-name: ${{ steps.image_tag.outputs.image_tag }}
