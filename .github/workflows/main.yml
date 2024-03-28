@@ -17,4 +17,3 @@ jobs:
       uses: astronomer/deploy-action@v0.4
       with:
         deployment-id: clubd4khb007k01pbmv43149a
-        parse: true
