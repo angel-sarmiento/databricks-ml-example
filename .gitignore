@@ -8,3 +8,4 @@ Pip*
 *DS_Store
 databricks-env/*
 .idea/
+venv/
